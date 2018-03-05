@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Grid } from 'react-bootstrap';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
       <Router>
         <Grid>
           <div className="App">
-          <Header />
+            <Header />
+            <Footer />
         </div>
       </Grid>
       </Router>

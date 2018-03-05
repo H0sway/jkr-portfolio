@@ -7,14 +7,14 @@ const Header = () => {
     <header>
       <Row>
         <Navbar>
-          <Col xs={12} md={7}>
+          <Col sm={12} md={7}>
             <Navbar.Header>
               <Navbar.Brand>
-                Joshua K. Russell<small>Web Developer</small>
+                Joshua K. Russell <small>Web Developer</small>
               </Navbar.Brand>
             </Navbar.Header>
           </Col>
-          <Col xs={12} md={5}>
+          <Col sm={12} md={5}>
             <Nav>
               <LinkContainer to="/about">
                 <NavItem>
