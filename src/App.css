@@ -8,17 +8,9 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%; 
+  width: 100%;
   padding: .5em;
   z-index: 5;
 }
 
-.navbar-header {
-  text-align: center;
-}
-
-.navbar-brand {
-  text-align: center;
-  margin: 0 auto;
-}
 

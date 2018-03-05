@@ -3,11 +3,11 @@ import { Navbar, NavItem, Nav, Row, Col } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = () => {
-  return(
+  return (
     <header>
       <Row>
         <Navbar>
-          <Col sm={12} md={7}>
+          <Col sm={12} md={6}>
             <Navbar.Header>
               <Navbar.Brand>
                 Joshua K. Russell <small>Web Developer</small>
