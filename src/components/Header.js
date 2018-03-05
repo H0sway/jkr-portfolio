@@ -7,14 +7,16 @@ const Header = () => {
     <header>
       <Row>
         <Navbar>
-          <Col sm={12} md={6}>
-            <Navbar.Header>
-              <Navbar.Brand>
-                Joshua K. Russell <small>Web Developer</small>
-              </Navbar.Brand>
-            </Navbar.Header>
+          <Col sm={12} md={8}>
+            <LinkContainer to="/">
+              <Navbar.Header>
+                <Navbar.Brand>
+                  Joshua K. Russell <small>Web Developer</small>
+                </Navbar.Brand>
+              </Navbar.Header>
+            </LinkContainer>
           </Col>
-          <Col sm={12} md={5}>
+          <Col sm={12} md={4}>
             <Nav>
               <LinkContainer to="/about">
                 <NavItem>
