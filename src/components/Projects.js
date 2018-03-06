@@ -8,9 +8,6 @@ import forum from './images/forum.png';
 import cave from './images/cave.png';
 
 class Projects extends Component {
-  constructor() {
-    super();
-  }
   render() {
     return (
       <div className="Projects">
