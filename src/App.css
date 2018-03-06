@@ -1,28 +1,61 @@
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+footer {
+  border-top: 1px solid #000000;
+  position: fixed;
+  background-color: #ffffff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: .5em;
+  z-index: 5;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Home {
+  text-align: center;
+  margin: 1em auto;
 }
 
-.App-title {
-  font-size: 1.5em;
+.welcome {
+  margin: 0 auto;
 }
 
-.App-intro {
-  font-size: large;
+.page-header {
+  margin-top: 0;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.jumbotron {
+  margin: 2em auto;
+  padding: 4em 3em;
+}
+
+.face-photo {
+  max-width: 8em;
+  max-height: 10em;
+}
+
+.About {
+  margin-bottom: 5em;
+}
+
+.Projects {
+ margin-bottom: 5em;
+}
+
+.project-img {
+  height: 10em;
+  max-width: 20em;
+}
+
+.modal-body p {
+  border: 1px solid #000000;
+  padding: .5em;
+  margin-top: .8em;
+}
+
+.btn-group {
+  margin: 1em auto;
 }
