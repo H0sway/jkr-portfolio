@@ -1,3 +1,8 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .App {
   text-align: center;
   margin: 0 auto;
@@ -6,6 +11,7 @@
 footer {
   border-top: 1px solid #000000;
   position: fixed;
+  background-color: #ffffff;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -13,4 +19,21 @@ footer {
   z-index: 5;
 }
 
+.Home {
+  text-align: center;
+  margin: 1em auto;
+}
 
+.welcome {
+  margin: 0 auto;
+}
+
+.jumbotron {
+  margin: 2em auto;
+  padding: 4em 3em;
+}
+
+.face-photo {
+  max-width: 8em;
+  max-height: 10em;
+}
