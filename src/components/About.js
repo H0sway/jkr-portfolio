@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { PageHeader, Jumbotron, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 const About = () => {
