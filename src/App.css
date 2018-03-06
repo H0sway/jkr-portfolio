@@ -1,8 +1,3 @@
-#root {
-  margin: 0 auto;
-  text-align: center;
-}
-
 .App {
   text-align: center;
   margin: 0 auto;
@@ -28,6 +23,10 @@ footer {
   margin: 0 auto;
 }
 
+.page-header {
+  margin-top: 0;
+}
+
 .jumbotron {
   margin: 2em auto;
   padding: 4em 3em;
@@ -44,4 +43,19 @@ footer {
 
 .Projects {
  margin-bottom: 5em;
+}
+
+.project-img {
+  height: 10em;
+  max-width: 20em;
+}
+
+.modal-body p {
+  border: 1px solid #000000;
+  padding: .5em;
+  margin-top: .8em;
+}
+
+.btn-group {
+  margin: 1em auto;
 }
