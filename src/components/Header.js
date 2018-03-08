@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 const Header = () => {
   return (
     <header className="header-wrapper">
-      <Navbar staticTop inverse collapseOnSelect>
+      <Navbar fixedTop inverse collapseOnSelect>
         <Navbar.Header>
           <LinkContainer to="/">
             <Navbar.Brand>

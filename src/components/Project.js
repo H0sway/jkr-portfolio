@@ -23,11 +23,11 @@ class Project extends Component {
           <h2 className="title">{this.props.title}</h2>
           <Image className="project-img" src={this.props.img} alt={this.props.title} thumbnail responsive />
           <p className="short">{this.props.short}</p>
-          <Button bsStyle="primary" onClick={this.handleShow}>Learn More</Button>
+          <Button bsStyle="success" onClick={this.handleShow}>Learn More</Button>
         </Jumbotron>
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closebutton>
-              <Modal.Title>{this.props.title}</Modal.Title>
+              <Modal.Title className="modal-title">{this.props.title}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <Image className="modal-img" src={this.props.img} rounded responsive />
@@ -39,7 +39,7 @@ class Project extends Component {
 
               <br />
 
-              <Button bsStyle="primary" onClick={this.handleClose}>Close</Button>
+              <Button bsStyle="danger" onClick={this.handleClose}>Close</Button>
             </Modal.Body>
           </Modal>
       </div>

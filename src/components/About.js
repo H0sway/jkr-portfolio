@@ -8,7 +8,7 @@ const About = () => {
     <div className="About">
       <PageHeader>About Me</PageHeader>
       <Jumbotron>
-        <p>I was born in New York City and lived here for most of my life. Currently looking for web development jobs, preferably in NYC but I'm open to relocating.</p>
+        <p className="about-text">I was born in New York City and lived here for most of my life. Currently looking for web development jobs, preferably in NYC but I'm open to relocating.</p>
       </Jumbotron>
       <Row className="about-wrapper">
         <Col xs={12} md={4}>
