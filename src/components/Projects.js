@@ -20,7 +20,7 @@ class Projects extends Component {
               url="https://puppyfinderapp.herokuapp.com/"
               github="https://github.com/H0sway/puppy-finder-app"
               img={puppy}
-              long="Search for puppies up for adoption and save your favorites to a list. This application allows you to search the Pet Finder API for specific dog breeds up for adoption. Just select a breed in the dropdown menu, type in your zipcode, and hit enter! You can save puppies you're interested in by clicking the save button. Navigate to the favorites page and click on a puppy to add personal notes for each puppy along with a rating. Remember, all dogs are good dogs. This app was developed using React, Bootstrap, Node, Express, and Postgres. API calls were made using Axios."
+              long="Search for puppies up for adoption and save your favorites to a list. This application allows you to search the Pet Finder API for specific dog breeds up for adoption. Just select a breed in the dropdown menu, type in your zipcode, and hit enter! You can save puppies you're interested in by clicking the save button. Navigate to the favorites page and click on a puppy to add personal notes for each puppy along with a rating. Remember, all dogs are good dogs. I collaborated with three others while developing the site. This app was developed using React, Bootstrap, Node, Express, Webpack, and Postgres."
             />
           </Col>
           <Col xs={12} md={6}>
@@ -30,7 +30,7 @@ class Projects extends Component {
               url="https://stark-bayou-57330.herokuapp.com/"
               github="https://github.com/H0sway/forum-app"
               img={forum}
-              long="A forum where users can chat with each other on a wide range of topics. Anyone can create posts within one of the preset topics and comment on any post. Comments can be edited and deleted. This app was developed using React, Rails, and Postgres."
+              long="A forum where users can chat with each other on a wide range of topics. Anyone can create posts within one of the preset topics and comment on any post. Comments can be edited and deleted. This app was developed using React, Rails, Webpack, and Postgres."
             />
           </Col>
         </Row>
