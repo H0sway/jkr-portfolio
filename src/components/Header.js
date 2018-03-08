@@ -6,14 +6,14 @@ const Header = () => {
   return (
     <header className="header-wrapper">
       <Navbar staticTop inverse collapseOnSelect>
-        <LinkContainer to="/">
-          <Navbar.Header>
+        <Navbar.Header>
+          <LinkContainer to="/">
             <Navbar.Brand>
               Joshua K. Russell <small>Web Developer</small>
             </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-        </LinkContainer>
+          </LinkContainer>
+          <Navbar.Toggle />
+        </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
             <LinkContainer to="/about">

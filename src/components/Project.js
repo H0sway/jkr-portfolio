@@ -22,7 +22,7 @@ class Project extends Component {
         <Jumbotron>
           <Image className="project-img" src={this.props.img} thumbnail responsive />
           <p>{this.props.short}</p>
-          <Button bsStyle="primary" onClick={this.handleShow}>See More</Button>
+          <Button bsStyle="primary" onClick={this.handleShow}>Learn More</Button>
         </Jumbotron>
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closebutton>

@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="Contact">
       <h3>Contact Me</h3>
       <Row>
-        <Col xs={4} md={12}>
+        <Col xs={12}>
           <Panel className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
@@ -18,7 +18,7 @@ const Contact = () => {
             </Panel.Body>
           </Panel>
         </Col>
-        <Col xs={4} md={12}>
+        <Col xs={12}>
           <Panel className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
@@ -30,7 +30,7 @@ const Contact = () => {
             </Panel.Body>
           </Panel>
         </Col>
-        <Col xs={4} md={12}>
+        <Col xs={12}>
           <Panel className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
