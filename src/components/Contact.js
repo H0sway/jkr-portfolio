@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeader, Panel, Row, Col } from 'react-bootstrap';
+import { Panel, Row, Col } from 'react-bootstrap';
 
 const Contact = () => {
   return (
