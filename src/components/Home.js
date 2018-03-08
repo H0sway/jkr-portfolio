@@ -13,7 +13,7 @@ class Home extends Component {
             <h3 className="name">Joshua K. Russell</h3>
             <h5 className="clickbait">NYC based full-stack web developer. Click the button below to continue to my site.</h5>
             <LinkContainer to="/about">
-              <Button bsStyle="warning">About Me</Button>
+              <Button bsStyle="default">About Me</Button>
             </LinkContainer>
           </Jumbotron>
         </div>

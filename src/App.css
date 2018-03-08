@@ -59,25 +59,25 @@ footer {
 .jumbotron {
   margin: 2em auto;
   padding: 4em 3em;
-  background-color: #000000aa;
+  background-color: #000000cc;
   color: #ffffff;
 }
 
 .name {
-  color: #ED9118;
+  color: #949494;
   font-family: 'Prata', serif;
   font-size: 4em;
 }
 
 .clickbait {
-  color: #EDB218;
-  font-family: 'Lobster Two', cursive;
+  color: #A1A1A1;
+  font-family: 'Prata', serif;
   font-size: 2em;
   margin-bottom: .75em;
 }
 
 .about-text {
-  color: #ED9118;
+  color: #949494;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -91,7 +91,7 @@ footer {
 }
 
 .about-wrapper h3 {
-  color: #ED9118;
+  color: #3C8EE7;
 }
 
 .about-wrapper {
@@ -99,7 +99,7 @@ footer {
   align-items: flex-start;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #000000aa;
+  background-color: #000000cc;
   padding: 1em;
   margin: 0 auto;
 }
@@ -107,13 +107,13 @@ footer {
 .list-group-item {
   text-align: left;
   background-color: #000000;
-  color: #EDB218;
+  color: #B2B2B2;
   border-color: #2e6da4;
 }
 
 .contact-list {
   background-color: #000000;
-  color: #EDB218;
+  color: #B2B2B2;
 }
 
 .panel-heading {
@@ -121,11 +121,11 @@ footer {
 }
 
 .panel-title {
-  color: #F5D61B;
+  color: #C9C9C9;
 }
 
 .panel-body a {
-  color: #EDB218;
+  color: #B2B2B2;
 }
 
 .Projects {
@@ -138,7 +138,7 @@ footer {
 
 .title {
   margin-bottom: 1em;
-  color: #EDB218;
+  color: #B2B2B2;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -149,13 +149,13 @@ footer {
 
 .short {
   margin: .5em auto;
-  color: #E3984C;
+  color: #C9C9C9;
   font-family: 'Lobster Two', cursive;
 }
 
 .modal-content {
   background: #000000;
-  color: #EDB218;
+  color: #B2B2B2;
 }
 
 .modal-title {
