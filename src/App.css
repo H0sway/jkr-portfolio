@@ -64,7 +64,7 @@ footer {
 }
 
 .name {
-  color: #949494;
+  color: #F5F5F5;
   font-family: 'Prata', serif;
   font-size: 4em;
 }
@@ -77,7 +77,7 @@ footer {
 }
 
 .about-text {
-  color: #949494;
+  color: #F5F5F5;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -111,6 +111,11 @@ footer {
   border-color: #2e6da4;
 }
 
+.list-group-item:hover {
+  background-color: #242424;
+  color: #ffffff;
+}
+
 .contact-list {
   background-color: #000000;
   color: #B2B2B2;
@@ -128,6 +133,10 @@ footer {
   color: #B2B2B2;
 }
 
+.panel-body a:hover {
+  color: #ffffff;
+}
+
 .Projects {
  margin-bottom: 5em;
 }
@@ -138,7 +147,7 @@ footer {
 
 .title {
   margin-bottom: 1em;
-  color: #B2B2B2;
+  color: #F5F5F5;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -155,7 +164,7 @@ footer {
 
 .modal-content {
   background: #000000;
-  color: #B2B2B2;
+  color: #C9C9C9;
 }
 
 .modal-title {
