@@ -4,10 +4,10 @@ import { PageHeader, Panel, Row, Col } from 'react-bootstrap';
 const Contact = () => {
   return (
     <div className="Contact">
-      <PageHeader>Contact Me</PageHeader>
+      <h3>Contact Me</h3>
       <Row>
-        <Col xs={12} md={4}>
-          <Panel>
+        <Col xs={4} md={12}>
+          <Panel className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
                 Github
@@ -18,8 +18,8 @@ const Contact = () => {
             </Panel.Body>
           </Panel>
         </Col>
-        <Col xs={12} md={4}>
-          <Panel>
+        <Col xs={4} md={12}>
+          <Panel className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
                 LinkedIn
@@ -30,8 +30,8 @@ const Contact = () => {
             </Panel.Body>
           </Panel>
         </Col>
-        <Col xs={12} md={4}>
-          <Panel>
+        <Col xs={4} md={12}>
+          <Panel className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
                 Email
