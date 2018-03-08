@@ -20,8 +20,9 @@ class Project extends Component {
     return (
       <div className="single-project">
         <Jumbotron>
-          <Image className="project-img" src={this.props.img} thumbnail responsive />
-          <p>{this.props.short}</p>
+          <h2 className="title">{this.props.title}</h2>
+          <Image className="project-img" src={this.props.img} alt={this.props.title} thumbnail responsive />
+          <p className="short">{this.props.short}</p>
           <Button bsStyle="primary" onClick={this.handleShow}>Learn More</Button>
         </Jumbotron>
           <Modal show={this.state.show} onHide={this.handleClose}>
@@ -30,7 +31,7 @@ class Project extends Component {
             </Modal.Header>
             <Modal.Body>
               <Image className="modal-img" src={this.props.img} rounded responsive />
-              <p>{this.props.long}</p>
+              <p className="long">{this.props.long}</p>
               <ButtonGroup>
                 <Button href={this.props.url}>To the site!</Button>
                 <Button href={this.props.github}>Github</Button>

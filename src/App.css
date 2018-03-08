@@ -40,6 +40,7 @@ footer {
 
 .page-header {
   margin-top: 0;
+  border-color: #ED9118;
 }
 
 .page-header h1 {
@@ -78,15 +79,53 @@ footer {
 
 .list-group-item {
   text-align: left;
+  background-color: #000000;
+  color: #EDB218;
+}
+
+.contact-list {
+  background-color: #000000;
+  color: #EDB218;
+}
+
+.panel-heading {
+  background-color: #4A4A4A;
+}
+
+.panel-title {
+  color: #F5D61B;
+}
+
+.panel-body a {
+  color: #EDB218;
 }
 
 .Projects {
  margin-bottom: 5em;
 }
 
+.single-project .jumbotron {
+  padding: 23px 15px 56px 15px;
+}
+
+.title {
+  margin-bottom: 1em;
+  color: #EDB218;
+}
+
 .project-img {
   height: 10em;
   max-width: 20em;
+}
+
+.short {
+  margin: .5em auto;
+  color: #E3984C;
+}
+
+.modal-content {
+  background: #000000;
+  color: #EDB218;
 }
 
 .modal-body p {

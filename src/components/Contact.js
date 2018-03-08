@@ -7,7 +7,7 @@ const Contact = () => {
       <h3>Contact Me</h3>
       <Row>
         <Col xs={12}>
-          <Panel className="contact-list">
+          <Panel bsStyle="primary" className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
                 Github
@@ -19,7 +19,7 @@ const Contact = () => {
           </Panel>
         </Col>
         <Col xs={12}>
-          <Panel className="contact-list">
+          <Panel bsStyle="primary" className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
                 LinkedIn
@@ -31,7 +31,7 @@ const Contact = () => {
           </Panel>
         </Col>
         <Col xs={12}>
-          <Panel className="contact-list">
+          <Panel bsStyle="primary" className="contact-list">
             <Panel.Heading>
               <Panel.Title componentClass="h4">
                 Email
