@@ -16,7 +16,7 @@ class Projects extends Component {
           <Col xs={12} md={6}>
             <Project
               title="Puppy Finder"
-              short="Search for puppies up for adoption"
+              short="Search for puppies up for adoption."
               url="https://puppyfinderapp.herokuapp.com/"
               github="https://github.com/H0sway/puppy-finder-app"
               img={puppy}
@@ -26,7 +26,7 @@ class Projects extends Component {
           <Col xs={12} md={6}>
             <Project
               title="Discussion Forum"
-              short="A place for users to chat with each other"
+              short="A place for users to chat with each other."
               url="https://stark-bayou-57330.herokuapp.com/"
               github="https://github.com/H0sway/forum-app"
               img={forum}

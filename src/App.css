@@ -175,6 +175,7 @@ footer {
   padding: .5em;
   margin-top: .8em;
   font-family: 'Prata', serif;
+  text-align: justify;
 }
 
 .btn-group {
