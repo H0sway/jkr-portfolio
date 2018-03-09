@@ -16,7 +16,7 @@ const Contact = () => {
                 </Panel.Title>
               </Panel.Heading>
               <Panel.Body>
-                <a href="https://github.com/H0sway">H0sway</a>
+                <a href="https://github.com/H0sway" target="_blank" rel="noopener noreferrer">H0sway</a>
               </Panel.Body>
             </Panel>
           </Col>
@@ -28,7 +28,7 @@ const Contact = () => {
                 </Panel.Title>
               </Panel.Heading>
               <Panel.Body>
-                <a href="https://www.linkedin.com/in/joshua-k-russell">Joshua K. Russell</a>
+                <a href="https://www.linkedin.com/in/joshua-k-russell" target="_blank" rel="noopener noreferrer">Joshua K. Russell</a>
               </Panel.Body>
             </Panel>
           </Col>
