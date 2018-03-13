@@ -33,8 +33,8 @@ class Project extends Component {
               <Image className="modal-img" src={this.props.img} rounded responsive />
               <p className="long">{this.props.long}</p>
               <ButtonGroup>
-                <Button href={this.props.url}>To the site!</Button>
-                <Button href={this.props.github}>Github</Button>
+                <Button href={this.props.url} target="_blank" rel="noopener noreferrer">To the site!</Button>
+                <Button href={this.props.github} target="_blank" rel="noopener noreferrer">Github</Button>
               </ButtonGroup>
 
               <br />
