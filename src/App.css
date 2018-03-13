@@ -100,6 +100,7 @@ footer {
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #000000cc;
+  border-radius: 6px;
   padding: 1em;
   margin: 0 auto;
 }
@@ -121,12 +122,8 @@ footer {
   color: #B2B2B2;
 }
 
-.panel-heading {
-  background-color: #4A4A4A;
-}
-
 .panel-title {
-  color: #C9C9C9;
+  color: #ffffff;
 }
 
 .panel-body a {
