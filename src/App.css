@@ -91,7 +91,7 @@ footer {
 }
 
 .about-wrapper h3 {
-  color: #3C8EE7;
+  color: #3CBCE7;
 }
 
 .about-wrapper {
@@ -140,6 +140,7 @@ footer {
 
 .single-project .jumbotron {
   padding: 23px 15px 56px 15px;
+  margin: .5em auto;
 }
 
 .title {
