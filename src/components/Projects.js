@@ -53,7 +53,7 @@ class Projects extends Component {
               url="http://stoic-goodall-5acdc9.bitballoon.com/"
               github="https://github.com/H0sway/Cave-Escape-Game"
               img={cave}
-              long="A game created using HTML, CSS, and jQuery. Players must navigate their way out of a cave by inputting commands to move from one area in the cave to another. Each area has it's own unique text-based description that players have to keep track of without losing their sense of direction. The player can reset to the beginning of the game by clicking the retry button if they are stuck or finished and want to try again."
+              long="A game created using HTML, CSS, and jQuery. Players must navigate their way out of a cave by inputting commands to move from one area in the cave to another. Each area has its own unique text-based description that players have to keep track of without losing their sense of direction. The player can reset to the beginning of the game by clicking the retry button if they are stuck or finished and want to try again."
             />
           </Col>
         </Row>
