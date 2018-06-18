@@ -28,7 +28,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: .5em;
+  padding: .5em .5em 0 .5em;
   z-index: 5;
 }
 
@@ -39,6 +39,20 @@ footer {
 
 .welcome {
   margin: 0 auto;
+}
+
+.about-button {
+  background-color: #000000;
+  font-size: 1.5em;
+  border-radius: .2em;
+  padding: .5em;
+}
+
+.about-button:hover {
+  color: #000000;
+  border-color: #000000;
+  background-color: #ffffff;
+  transition: .5s;
 }
 
 .navbar-brand {
@@ -143,6 +157,19 @@ footer {
   margin: .5em auto;
 }
 
+.learn-more {
+  padding: .5em 1em;
+  color: #F5F5F5;
+  background-color: #000000;
+  transition: .5s;
+}
+
+.learn-more:hover {
+  color: #000000;
+  background-color: #C9C9C9;
+  border-color: #000000;
+}
+
 .title {
   margin-bottom: 1em;
   color: #F5F5F5;
@@ -178,4 +205,16 @@ footer {
 
 .btn-group {
   margin: 1em auto;
+}
+
+.close-modal {
+  color: #F5F5F5;
+  background-color: #FF0000;
+  padding: .5em 1em;
+  border-color: #786564;
+  border-radius: 4px;
+}
+
+.close-modal:hover {
+  background-color: #A30000;
 }

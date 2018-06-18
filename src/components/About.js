@@ -17,6 +17,7 @@ const About = () => {
             <ListGroupItem>HTML5</ListGroupItem>
             <ListGroupItem>CSS3</ListGroupItem>
             <ListGroupItem>JavaScript (ES6)</ListGroupItem>
+            <ListGroupItem>Python</ListGroupItem>
             <ListGroupItem>jQuery</ListGroupItem>
             <ListGroupItem>React.js</ListGroupItem>
             <ListGroupItem>Node.js</ListGroupItem>

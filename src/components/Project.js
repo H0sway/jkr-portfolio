@@ -23,7 +23,7 @@ class Project extends Component {
           <h2 className="title">{this.props.title}</h2>
           <Image className="project-img" src={this.props.img} alt={this.props.title} thumbnail responsive />
           <p className="short">{this.props.short}</p>
-          <Button bsStyle="success" onClick={this.handleShow}>Learn More</Button>
+          <button className="learn-more" onClick={this.handleShow}>Learn More</button>
         </Jumbotron>
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closebutton>
@@ -39,7 +39,7 @@ class Project extends Component {
 
               <br />
 
-              <Button bsStyle="danger" onClick={this.handleClose}>Close</Button>
+              <button className="close-modal" onClick={this.handleClose}>Close</button>
             </Modal.Body>
           </Modal>
       </div>
