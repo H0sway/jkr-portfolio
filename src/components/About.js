@@ -23,6 +23,7 @@ const About = () => {
             <ListGroupItem>Express.js</ListGroupItem>
             <ListGroupItem>Ruby on Rails</ListGroupItem>
             <ListGroupItem>PostgreSQL</ListGroupItem>
+            <ListGroupItem>Python</ListGroupItem>
           </ListGroup>
         </Col>
         <Col xs={12} md={4}>

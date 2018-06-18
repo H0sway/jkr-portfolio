@@ -41,6 +41,19 @@ footer {
   margin: 0 auto;
 }
 
+.about-button {
+  background-color: #000000;
+  font-size: 1.5em;
+  padding: .5em;
+}
+
+.about-button:hover {
+  color: #000000;
+  border-color: #000000;
+  background-color: #ffffff;
+  transition: .5s;
+}
+
 .navbar-brand {
   cursor: pointer;
   font-family: 'Heebo', sans-serif;

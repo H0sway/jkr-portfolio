@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button, Image } from 'react-bootstrap';
+import { Jumbotron, Image } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import face from './images/face.jpeg';
 
@@ -13,7 +13,7 @@ class Home extends Component {
             <h3 className="name">Joshua K. Russell</h3>
             <h5 className="clickbait">NYC based full-stack web developer. Click the button below to continue to my site.</h5>
             <LinkContainer to="/about">
-              <Button bsStyle="default">About Me</Button>
+              <button className="about-button">About Me</button>
             </LinkContainer>
           </Jumbotron>
         </div>
