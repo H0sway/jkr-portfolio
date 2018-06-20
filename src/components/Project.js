@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Jumbotron, Modal, Button, ButtonGroup } from 'react-bootstrap';
+import { Image, Modal, Button, ButtonGroup } from 'react-bootstrap';
 
 class Project extends Component {
   constructor(props, context) {
@@ -19,12 +19,10 @@ class Project extends Component {
   render() {
     return (
       <div className="single-project">
-        <Jumbotron>
           <h2 className="title">{this.props.title}</h2>
           <Image className="project-img" src={this.props.img} alt={this.props.title} thumbnail responsive />
           <p className="short">{this.props.short}</p>
           <button className="learn-more" onClick={this.handleShow}>Learn More</button>
-        </Jumbotron>
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closebutton>
               <Modal.Title className="modal-title">{this.props.title}</Modal.Title>

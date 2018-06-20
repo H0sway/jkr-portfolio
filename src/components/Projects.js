@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { PageHeader, Row, Col } from 'react-bootstrap';
+import { PageHeader, Jumbotron, Row, Col } from 'react-bootstrap';
 import Project from './Project';
 
 // import images
@@ -13,7 +13,8 @@ class Projects extends Component {
     return (
       <div className="Projects">
         <PageHeader>My Projects</PageHeader>
-        <Row>
+        <Jumbotron>
+        <Row className="projects-flex">
           <Col xs={12} md={6}>
             <Project
               title="CryptoCurrency Tracker"
@@ -35,7 +36,7 @@ class Projects extends Component {
             />
           </Col>
         </Row>
-        <Row>
+        <Row className="projects-flex">
           <Col xs={12} md={6}>
             <Project
               title="Discussion Forum"
@@ -57,6 +58,7 @@ class Projects extends Component {
             />
           </Col>
         </Row>
+      </Jumbotron>
       </div>
     )
   }
