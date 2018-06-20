@@ -222,12 +222,12 @@ footer {
 
 .close-modal {
   color: #F5F5F5;
-  background-color: #FF0000;
+  background-color: #8F0000;
   padding: .5em 1em;
   border-color: #786564;
   border-radius: 4px;
 }
 
 .close-modal:hover {
-  background-color: #A30000;
+  background-color: #630000;
 }
