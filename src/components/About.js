@@ -1,7 +1,8 @@
 import React from 'react';
-import { PageHeader, Jumbotron, ListGroup, ListGroupItem, Row, Col } from 'react-bootstrap';
+import { PageHeader, Jumbotron, Row, Col } from 'react-bootstrap';
 
 import Contact from './Contact';
+import Skills from './Skills';
 
 const About = () => {
   return (
@@ -13,18 +14,7 @@ const About = () => {
       <Row className="about-wrapper">
         <Col xs={12} md={4}>
           <h3>My Skills</h3>
-          <ListGroup>
-            <ListGroupItem>HTML5</ListGroupItem>
-            <ListGroupItem>CSS3</ListGroupItem>
-            <ListGroupItem>JavaScript (ES6)</ListGroupItem>
-            <ListGroupItem>Python</ListGroupItem>
-            <ListGroupItem>jQuery</ListGroupItem>
-            <ListGroupItem>React.js</ListGroupItem>
-            <ListGroupItem>Node.js</ListGroupItem>
-            <ListGroupItem>Express.js</ListGroupItem>
-            <ListGroupItem>Ruby on Rails</ListGroupItem>
-            <ListGroupItem>PostgreSQL</ListGroupItem>
-          </ListGroup>
+          <Skills />
         </Col>
         <Col xs={12} md={4}>
           <Contact />
