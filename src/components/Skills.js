@@ -1,40 +1,18 @@
 import React from 'react';
-import { Panel, ListGroup } from 'react-bootstrap';
+import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
-const list = [
-  {
-    title: "HTML",
-    body: "Bottom Text"
-  },
-  {
-    title: "CSS",
-    body: "Bottom Text"
-  },
-  {
-    title: "JavaScript",
-    body: "Bottom Text"
-  },
-  {
-    title: "Ruby",
-    body: "Bottom Text"
-  },
-]
+const list = ["HTML", "CSS", "JavaScript", "Ruby", "Python", "React", "Node", "jQuery", "Rails", "Postgres"];
 
-const addPanels = (list, i) => {
+const addListItem = (list, i) => {
   return (
-    <Panel key={i}>
-      <Panel.Heading>
-        <Panel.Title toggle>{list.title}</Panel.Title>
-      </Panel.Heading>
-      <Panel.Body collapsible>{list.body}</Panel.Body>
-    </Panel>
+    <ListGroupItem>{list}</ListGroupItem>
   )
 }
 
-const renderPanels = () => {
+const renderList = () => {
   return (
     <ListGroup>
-      {list.map(addPanels)}
+      {list.map(addListItem)}
     </ListGroup>
   )
 }
@@ -42,7 +20,7 @@ const renderPanels = () => {
 const Skills = () => {
   return (
     <div className="Skills">
-      {renderPanels()}
+      {renderList()}
     </div>
   )
 }
