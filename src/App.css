@@ -124,6 +124,9 @@ footer {
   .about-wrapper {
     justify-content: center;
   }
+  .jumbotron .about-text {
+    font-size: 15px;
+  }
 }
 
 .Skills .list-group-item {
@@ -174,11 +177,17 @@ footer {
 }
 
 .single-project {
-  height: 381px;
-  padding: 5px 10px 0px 10px;
+  padding: 5px 10px 15px 10px;
   margin: .5em auto;
   background-color: #000000;
   border: 1px solid #FFFFFF;
+}
+
+@media (min-width: 992px) {
+  .single-project {
+    height: 381px;
+    padding-bottom: 0px;
+  }
 }
 
 .single-project:hover {
