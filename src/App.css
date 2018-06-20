@@ -127,6 +127,10 @@ footer {
   .jumbotron .about-text {
     font-size: 15px;
   }
+  .project-img {
+    height: 8em;
+    width: 16em;
+  }
 }
 
 .Skills .list-group-item {
