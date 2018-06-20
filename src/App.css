@@ -165,9 +165,24 @@ footer {
  margin-bottom: 5em;
 }
 
-.single-project .jumbotron {
-  padding: 23px 15px 56px 15px;
+.projects-flex {
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.single-project {
+  height: 381px;
+  padding: 5px 10px 0px 10px;
   margin: .5em auto;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.single-project:hover {
+  background-color: #292929;
 }
 
 .learn-more {

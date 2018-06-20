@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { PageHeader, Row, Col } from 'react-bootstrap';
+import { PageHeader, Jumbotron, Row, Col } from 'react-bootstrap';
 import Project from './Project';
 
 // import images
@@ -13,8 +13,9 @@ class Projects extends Component {
     return (
       <div className="Projects">
         <PageHeader>My Projects</PageHeader>
-        <Row>
-          <Col xs={12} md={6}>
+        <Jumbotron>
+        <Row className="projects-flex">
+          <Col xs={10} md={6}>
             <Project
               title="CryptoCurrency Tracker"
               short="An investment tracker for those interested in CryptoCurrency"
@@ -24,7 +25,7 @@ class Projects extends Component {
               long="Investors interested in CryptoCurrency can use this app to track currencies and any investments they might have. Users can add currencies to their own personal tracker as well as view the top 50 currencies by market cap. The app pulls data from Coin Market Cap's API to show users information on each currency and calculates how much their current investment is worth. Authentication is handled by Auth0. The app was build using React and Bootstrap on the front end, Node and Express on the back end, Postgres as the database, and Webpack as a bundler."
             />
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={10} md={6}>
             <Project
               title="Puppy Finder"
               short="Search for puppies up for adoption."
@@ -35,8 +36,8 @@ class Projects extends Component {
             />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6}>
+        <Row className="projects-flex">
+          <Col xs={10} md={6}>
             <Project
               title="Discussion Forum"
               short="A place for users to chat with each other."
@@ -46,7 +47,7 @@ class Projects extends Component {
               long="A forum where users can chat with each other on a wide range of topics. Anyone can create posts within one of the preset topics and comment on any post. Comments can be edited and deleted. This app was developed using React, Rails, Webpack, and Postgres."
             />
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={10} md={6}>
             <Project
               title="Cave Escape Game"
               short="Can you navigate your way out of this cave?"
@@ -57,6 +58,7 @@ class Projects extends Component {
             />
           </Col>
         </Row>
+      </Jumbotron>
       </div>
     )
   }
