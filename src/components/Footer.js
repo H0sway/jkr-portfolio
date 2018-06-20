@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="Footer">
       <footer>
-        <p>This site was built using React and Bootstrap by Joshua K. Russell</p>
+        <p>Built by Joshua K. Russell</p>
       </footer>
     </div>
   )
