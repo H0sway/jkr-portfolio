@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Heebo|Lobster+Two|Prata');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Heebo|Roboto|Lobster+Two|Prata');
 
 body {
   text-align: center;
@@ -111,7 +111,8 @@ footer {
 .about-wrapper {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-content: flex-start;
   flex-wrap: wrap;
   background-color: #000000cc;
   border-radius: 6px;
@@ -119,16 +120,27 @@ footer {
   margin: 0 auto;
 }
 
-.list-group-item {
+@media (max-width: 992px) {
+  .about-wrapper {
+    justify-content: center;
+  }
+}
+
+.Skills .list-group-item {
   text-align: left;
+  font-family: 'Roboto', sans-serif;
   background-color: #000000;
   color: #B2B2B2;
   border-color: #2e6da4;
 }
 
-.list-group-item:hover {
+.Skills .list-group-item:hover {
   background-color: #242424;
-  color: #ffffff;
+  color: #FFFFFF;
+}
+
+.Contact {
+  margin: 0 auto;
 }
 
 .contact-list {
@@ -136,15 +148,16 @@ footer {
   color: #B2B2B2;
 }
 
-.panel-title {
+.Contact .panel-title {
   color: #ffffff;
 }
 
-.panel-body a {
+.Contact .panel-body a {
+  font-family: 'Roboto', sans-serif;
   color: #B2B2B2;
 }
 
-.panel-body a:hover {
+.Contact .panel-body a:hover {
   color: #ffffff;
 }
 
@@ -209,12 +222,12 @@ footer {
 
 .close-modal {
   color: #F5F5F5;
-  background-color: #FF0000;
+  background-color: #8F0000;
   padding: .5em 1em;
   border-color: #786564;
   border-radius: 4px;
 }
 
 .close-modal:hover {
-  background-color: #A30000;
+  background-color: #630000;
 }
