@@ -1,5 +1,5 @@
 import React from 'react';
-import { Panel } from 'react-bootstrap';
+import { Panel, ListGroup } from 'react-bootstrap';
 
 const list = [
   {
@@ -20,15 +20,30 @@ const list = [
   },
 ]
 
-const addPanels = () => {
-  for (i = 0; i < list.length; i++) {
-    return()
-  }
+const addPanels = (list, i) => {
+  return (
+    <Panel key={i}>
+      <Panel.Heading>
+        <Panel.Title toggle>{list.title}</Panel.Title>
+      </Panel.Heading>
+      <Panel.Body collapsible>{list.body}</Panel.Body>
+    </Panel>
+  )
+}
+
+const renderPanels = () => {
+  return (
+    <ListGroup>
+      {list.map(addPanels)}
+    </ListGroup>
+  )
 }
 
 const Skills = () => {
   return (
-    {addPanels()}
+    <div className="Skills">
+      {renderPanels()}
+    </div>
   )
 }
 
