@@ -3,6 +3,7 @@
 body {
   text-align: center;
   margin: 0 auto;
+  background-color: #000000;
   background-image: url("./components/images/city.jpeg");
   background-repeat: no-repeat;
   background-position: center;
@@ -55,6 +56,10 @@ footer {
   transition: .5s;
 }
 
+.navbar-inverse {
+  background-color: #000000dd ;
+}
+
 .navbar-brand {
   cursor: pointer;
   font-family: 'Heebo', sans-serif;
@@ -105,7 +110,8 @@ footer {
 }
 
 .about-wrapper h3 {
-  color: #3CBCE7;
+  color: #FFC319;
+  margin-bottom: 1em;
 }
 
 .about-wrapper {
@@ -137,13 +143,13 @@ footer {
   text-align: left;
   font-family: 'Roboto', sans-serif;
   background-color: #000000;
-  color: #B2B2B2;
-  border-color: #2e6da4;
+  color: #BA8E12;
+  border-color: #ffffff;
 }
 
 .Skills .list-group-item:hover {
   background-color: #242424;
-  color: #FFFFFF;
+  color: #FFD919;
 }
 
 .Contact {
@@ -155,8 +161,17 @@ footer {
   color: #B2B2B2;
 }
 
+.Contact .panel-primary {
+  border-color: #A35C09;
+}
+
+.Contact .panel-heading {
+  background-color: #A35C09;
+  border-color: #000000;
+}
+
 .Contact .panel-title {
-  color: #ffffff;
+  color: #E5E5E5;
 }
 
 .Contact .panel-body a {
@@ -218,8 +233,8 @@ footer {
 }
 
 .project-img {
-  height: 10em;
-  max-width: 20em;
+  height: 12em;
+  width: 18em;
 }
 
 .short {
