@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {

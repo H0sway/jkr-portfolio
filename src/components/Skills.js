@@ -1,7 +1,9 @@
 import React from 'react';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
-const list = ["HTML", "CSS", "JavaScript", "Ruby", "Python", "React", "Node", "Django", "Rails", "jQuery", "Postgres", "SQLite"];
+const list = [
+  "HTML", "CSS", "JavaScript", "Ruby", "Python", "SASS/SCSS", "React", "Node", "Django", "Rails", "jQuery", "Postgres", "SQLite"
+];
 
 const addListItem = (list, i) => {
   return (
