@@ -66,12 +66,13 @@ footer {
 }
 
 .page-header {
-  h1 {
-    color: #ED9118;
-    font-family: 'Prata', serif;
-  }
   margin-top: 0;
   border-color: #ED9118;
+}
+
+.page-header h1 {
+  color: #ED9118;
+  font-family: 'Prata', serif;
 }
 
 .jumbotron {
@@ -109,10 +110,6 @@ footer {
 }
 
 .about-wrapper {
-  h3 {
-    color: #FFC319;
-    margin-bottom: 1em;
-  }
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -122,6 +119,11 @@ footer {
   border-radius: 6px;
   padding: 1em;
   margin: 0 auto;
+}
+
+.about-wrapper h3 {
+  color: #FFC319;
+  margin-bottom: 1em;
 }
 
 @media (max-width: 992px) {
@@ -137,42 +139,43 @@ footer {
   }
 }
 
-.Skills {
-  .list-group-item {
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    background-color: #000000;
-    color: #BA8E12;
-    border-color: #ffffff;
-  }
-  .list-group-item:hover {
-    background-color: #242424;
-    color: #FFD919;
-  }
+.Skills .list-group-item {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  color: #BA8E12;
+  border-color: #ffffff;
+}
+
+.Skills .list-group-item:hover {
+  background-color: #242424;
+  color: #FFD919;
 }
 
 .Contact {
   margin: 0 auto;
+}
 
-  .panel-primary {
-    border-color: #A35C09;
-  }
-  .panel-heading {
-    background-color: #A35C09;
-    border-color: #000000;
-  }
-  .panel-title {
-    color: #E5E5E5;
-  }
-  .panel-body {
-    a {
-      font-family: 'Roboto', sans-serif;
-      color: #B2B2B2;
-    }
-    a:hover {
-      color: #ffffff;
-    }
-  }
+.Contact .panel-primary {
+  border-color: #A35C09;
+}
+
+.Contact .panel-heading {
+  background-color: #A35C09;
+  border-color: #000000;
+}
+
+.Contact .panel-title {
+  color: #E5E5E5;
+}
+
+.Contact .panel-body a {
+  font-family: 'Roboto', sans-serif;
+  color: #B2B2B2;
+}
+
+.Contact .panel-body a:hover {
+  color: #ffffff;
 }
 
 .contact-list {
