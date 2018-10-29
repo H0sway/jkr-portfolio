@@ -3,12 +3,10 @@ import { PageHeader, Jumbotron, Row, Col } from 'react-bootstrap';
 import Project from './Project';
 
 // import images
-import crypto from './images/crypto.png';
 import puppy from './images/puppy.png';
-import blacklist from './images/blacklist.png';
 import forum from './images/forum.png';
 import cave from './images/cave.png';
-
+import crypto from './images/crypto.png';
 
 class Projects extends Component {
   render() {
@@ -41,16 +39,6 @@ class Projects extends Component {
           <Row className="projects-flex">
             <Col xs={10} md={6}>
               <Project
-                title="Blacklisted Bitcoin Wallets"
-                short="Check to see if a bitcoin wallet has made any transactions with blacklisted wallets."
-                url="https://ancient-beach-14052.herokuapp.com/"
-                github="https://github.com/H0sway/blockchain-wallets-bitcoin"
-                img={blacklist}
-                long="Making transactions with unknown wallets carries a lot of risk. Thanks to the public nature of the Bitcoin blockchain this application can search the blockchain and find all the wallets a specific wallet address has made transactions with. Each address is then searched in BitcoinWhosWho's blacklist of wallet addresses that have been asssociated with some sort of scam. Wallet transaction data was taken from BTC.com and the blacklist is from BitcoinWhosWho's scam API. The app has a React frontend with Bootstrap and SASS used for syling and bundled together with Webpack. It is connected to an Express server which handles calls to the third party API."
-              />
-            </Col>
-            <Col xs={10} md={6}>
-              <Project
                 title="Discussion Forum"
                 short="A place for users to chat with each other."
                 url="https://stark-bayou-57330.herokuapp.com/"
@@ -59,8 +47,6 @@ class Projects extends Component {
                 long="A forum where users can chat with each other on a wide range of topics. Anyone can create posts within one of the preset topics and comment on any post. Comments can be edited and deleted. This app was developed using React, Rails, Webpack, and Postgres."
               />
             </Col>
-          </Row>
-          <Row className="projects-flex">
             <Col xs={10} md={6}>
               <Project
                 title="Cave Escape Game"
