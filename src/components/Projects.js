@@ -42,7 +42,7 @@ class Projects extends Component {
             <Col xs={10} md={6}>
               <Project
                 title="Blacklisted Bitcoin Wallets"
-                short="Check to see if a bitcoin wallet has made any transactions with blacklisted wallets."
+                short="Check if a wallet has made transactions with blacklisted wallet addresses."
                 url="https://ancient-beach-14052.herokuapp.com/"
                 github="https://github.com/H0sway/blockchain-wallets-bitcoin"
                 img={blacklist}
