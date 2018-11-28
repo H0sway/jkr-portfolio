@@ -183,6 +183,16 @@ footer {
   color: #B2B2B2;
 }
 
+.Medium a {
+  font-family: 'Roboto', sans-serif;
+  color: #ED9118;
+  font-size: 1.35em;
+}
+
+.Medium a:hover {
+  color: #FFAC1A;
+}
+
 .Projects {
  margin-bottom: 5em;
 }

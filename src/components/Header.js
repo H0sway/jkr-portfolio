@@ -21,6 +21,11 @@ const Header = () => {
                 About
               </NavItem>
             </LinkContainer>
+              <LinkContainer to="/blog">
+                <NavItem>
+                  Blog
+                </NavItem>
+              </LinkContainer>
             <LinkContainer to="/projects">
               <NavItem>
                 Projects

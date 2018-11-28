@@ -40,7 +40,7 @@ const Contact = () => {
                 </Panel.Title>
               </Panel.Heading>
               <Panel.Body>
-                <a href={pdf} target="_blank">Click to View</a>
+                <a href={pdf} target="_blank" rel="noopener noreferrer">Click to View</a>
               </Panel.Body>
             </Panel>
           </Col>

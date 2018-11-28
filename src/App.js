@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
+import Medium from './components/Medium';
 import Projects from './components/Projects';
 import './App.css';
 
@@ -18,6 +19,7 @@ class App extends Component {
             <Header />
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/blog" component={Medium} />
             <Route exact path="/projects" component={Projects} />
             <Footer />
           </Grid>
