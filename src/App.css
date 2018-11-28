@@ -193,6 +193,13 @@ footer {
   color: #FFAC1A;
 }
 
+.blogs-header {
+  font-family: 'Prata', serif;
+  font-size: 2em;
+  padding-bottom: .4em;
+  border-bottom: .05em solid #ffffff;
+}
+
 .Projects {
  margin-bottom: 5em;
 }

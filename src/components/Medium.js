@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { PageHeader, Jumbotron, Row, Col } from 'react-bootstrap';
+import { PageHeader, Jumbotron, } from 'react-bootstrap';
+
+import MediumPosts from './MediumPosts';
 
 class Medium extends Component {
   constructor() {
@@ -20,7 +22,8 @@ class Medium extends Component {
           </a>
 
           <br />
-          
+
+          <MediumPosts />
         </Jumbotron>
       </div>
     )
