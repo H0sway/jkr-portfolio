@@ -195,9 +195,53 @@ footer {
 
 .blogs-header {
   font-family: 'Prata', serif;
-  font-size: 2em;
+  font-size: 2.5em;
+  padding-top: .8em;
   padding-bottom: .4em;
-  border-bottom: .05em solid #ffffff;
+  border-top: .05em solid #ffffff;
+}
+
+.BlogPost {
+  padding: 5px 10px 15px 10px;
+  min-height: 285px;
+  margin: .5em auto;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+
+.BlogPost:hover {
+  background-color: #292929;
+}
+
+.BlogPost .blog-title {
+  font-family: 'Heebo', sans-serif;
+  min-height: 60px;
+  color: #ED9118;
+  border-bottom: .05em solid #ED9118;
+  font-size: 2em;
+}
+
+.BlogPost .blog-subtitle {
+  padding: .5em;
+  margin-top: .8em;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.BlogPost .btn {
+  color: #000000;
+}
+
+.BlogPost .btn:hover {
+  color: #303030;
+}
+
+.medium-logo {
+  margin-right: .4em;
+  max-height: 25px;
+  max-width: 25px;
+  display: inline;
 }
 
 .Projects {
