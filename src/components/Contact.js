@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Panel, Row, Col } from 'react-bootstrap';
 
-import pdf from './Joshua_Russell_Resume.pdf';
 
 const Contact = () => {
     return (
@@ -40,7 +40,7 @@ const Contact = () => {
                 </Panel.Title>
               </Panel.Heading>
               <Panel.Body>
-                <a href={pdf} target="_blank" rel="noopener noreferrer">Click to View</a>
+                <Link to="/resume" target="_blank" rel="noopener noreferrer">Click to View</Link>
               </Panel.Body>
             </Panel>
           </Col>
