@@ -17,13 +17,20 @@ const MediumPosts = () => {
         </Col>
         <Col xs={10} md={6}>
           <BlogPost
-            title="Deploying a React and Node app to Heroku"
-            subtitle="If you want instruction on how to build a React and Node app please read this blog. I’ll be using the app I built in that post as an…"
-            url="https://medium.com/@hosway/deploying-a-react-and-node-app-to-heroku-e8b7ed572e59"
+            title="Frontend React With Webpack and a Sprinkle of SASS"
+            subtitle="Are you looking to build a website, but want to use a Javascript library that’s a little bit more modern than jQuery? React is my favorite development tool to work with and…"
+            url="https://medium.com/@hosway/frontend-react-with-webpack-and-a-sprinkle-of-sass-4fe584dccac5"
           />
         </Col>
       </Row>
       <Row>
+      <Col xs={10} md={6}>
+        <BlogPost
+          title="Deploying a React and Node app to Heroku"
+          subtitle="If you want instruction on how to build a React and Node app please read this blog. I’ll be using the app I built in that post as an…"
+          url="https://medium.com/@hosway/deploying-a-react-and-node-app-to-heroku-e8b7ed572e59"
+        />
+      </Col>
         <Col xs={10} md={6}>
           <BlogPost
             title="Teaching Yourself New Concepts in Web Development"
